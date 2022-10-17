@@ -1,0 +1,63 @@
+- MERN/DevOps ?
+- Class based and function based components and states and props and hooks in react ?
+- Wrap components ?
+
+-High Order Functions: 
+	A function that accepts functions as parameters and/or returns a function. Whatever condition we are putting it, the 
+	high order function will behave like that. The code will be extensible. 
+	
+-High Order components: 
+	A higher-order component (HOC) is an advanced technique in React for reusing component logic. 
+	HOCs are not part of the React API, per se. They are a pattern that emerges from React's compositional nature. 
+	Concretely, a higher-order component is a function that takes a component and returns a new component.
+
+-The method in which we use 'this' keyword, we have to bind that function in a contructor to be able to used.
+
+-High order functions (HOC) -> to share the stateful logic between the components 
+-contextAPI,
+
+-Render props -> To render props between parent and child components.  
+
+-Props Drelling
+-useContext -> ContextAPI
+-useReducer -> Reducer
+
+
+- Make your own hook
+- when the bubbles (dependencies between classes and functions) are less in a project, it become better and fast.
+- 
+
+********************************************************************************************************************************************************************
+	-> useRef()
+- When we change the state e.g: setState(), it will update the complete DOM according to the changes in a specific components. It will do that by calling 
+  a rerender function and rerender the whole DOM.
+- useRef() do not rerender the DOM of the react application. it do the work in console like updating the state values, but will not rerender / update the DOM.
+- when you want to maintain a state but not to affect the UI then we will use useRef() hook in react.
+- We also can have a references of DOM elements using useRef() hook. e.g: we can have the reference of an input and then can access all the properties of that element
+	input in the UI. we can also do changes to that specific element in the DOM. 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
